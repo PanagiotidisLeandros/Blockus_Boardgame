@@ -1,1 +1,1 @@
-# ADISE_Blockus_2024
+# ADISE24_Blokus2
