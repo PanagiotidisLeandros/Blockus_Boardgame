@@ -25,33 +25,22 @@ https://users.iee.ihu.gr/~iee2020246/ADISE24_Blokus2/www/
 
 --- API του project 
 
-URI :
-blockus.php/board/    
-Method :
-GET    
-Action :                                                                                             
-Επιστρέφει σε json την τρέχουσα μορφή του board.
-Return Status :
-200 (OK), 400 (Bad Request)
+URI : blockus.php/board/  
+Method : GET    
+Action : Επιστρέφει σε json την τρέχουσα μορφή του board.
+Return Status : 200 (OK), 400 (Bad Request)
 
-URI :
-blockus.php/board/ 
-Method : 
-POST    
-Action :                                                                                             
-Κάνει reset το board στην αρχική κατάσταση. Επιστρέφει σε json την τρέχουσα μορφή του board.
-Return Status :
-200 (OK), 400 (Bad Request)
+URI : blockus.php/board/
+Method : POST
+Action : Κάνει reset το board στην αρχική κατάσταση. Επιστρέφει σε json την τρέχουσα μορφή του board.
+Return Status : 200 (OK), 400 (Bad Request)
 
-URI :
-blockus.php/board/piece/{piece_id}/{cordinet_x} 
-Method : 
-PUT    
-Action :                                                                                             
-Τοποθετη το blockus πιόνι με id = piece_id (τιμη 1 -21 για τα 21 πιονια blockus) στην θεση με συντεταγμενη x ισο με cordinet_x (x,y) και y = cordinet_y με δεξιες περιστροφες = rotation.
-Ορίσματα: cordinet_y, rotation. Θα επιστρέψει την νέα κατάσταση των κελιών όλου του πινακα. 
-Return Status :
-200 (OK), 400 (Bad Request)
+
+URI : blockus.php/board/piece/{piece_id}/{cordinet_x} 
+Method : PUT
+Action : Τοποθετη το blockus πιόνι με id = piece_id (τιμη 1 -21 για τα 21 πιονια blockus) στην θεση με συντεταγμενη x ισο με cordinet_x (x,y) και y = cordinet_y με δεξιες περιστροφες = rotation.
+Ορίσματα: cordinet_y, rotation. Θα επιστρέψει την νέα κατάσταση των κελιών όλου του πινακα.                                                                                             
+Return Status : 200 (OK), 400 (Bad Request)
 
 URI :
 blockus.php/players/{p} 
