@@ -1,4 +1,7 @@
 # ADISE24_Blokus2
+--- Link
+
+https://users.iee.ihu.gr/~iee2020246/ADISE24_Blokus2/www/
 
 --- Περιγραφή του project
 
