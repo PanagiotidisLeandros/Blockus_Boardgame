@@ -25,36 +25,66 @@ https://users.iee.ihu.gr/~iee2020246/ADISE24_Blokus2/www/
 
 --- API του project 
 
+URI :
+blockus.php/board/    
+Method :
+GET    
+Action :                                                                                             
+Επιστρέφει σε json την τρέχουσα μορφή του board.
+Return Status :
+200 (OK), 400 (Bad Request)
 
-URI      &nbsp;                               Method &nbsp;  Action                   &nbsp;                                              Return Status
+URI :
+blockus.php/board/ 
+Method : 
+POST    
+Action :                                                                                             
+Κάνει reset το board στην αρχική κατάσταση. Επιστρέφει σε json την τρέχουσα μορφή του board.
+Return Status :
+200 (OK), 400 (Bad Request)
 
-blockus.php/board/                      GET     Επιστρέφει σε json την τρέχουσα μορφή του board.                       200 (OK), 400 (Bad Request)
+URI :
+blockus.php/board/piece/{piece_id}/{cordinet_x} 
+Method : 
+PUT    
+Action :                                                                                             
+Τοποθετη το blockus πιόνι με id = piece_id (τιμη 1 -21 για τα 21 πιονια blockus) στην θεση με συντεταγμενη x ισο με cordinet_x (x,y) και y = cordinet_y με δεξιες περιστροφες = rotation.
+Ορίσματα: cordinet_y, rotation. Θα επιστρέψει την νέα κατάσταση των κελιών όλου του πινακα. 
+Return Status :
+200 (OK), 400 (Bad Request)
 
+URI :
+blockus.php/players/{p} 
+Method : 
+GET    
+Action :                                                                                             
+Επιστρέφει σε json τo όνομα και το χρώμα του παίκτη p=B , R , Y ή G
+Return Status :
+200 (OK), 400 (Bad Request)
 
-blockus.php/board/                      POST    Κάνει reset το board στην αρχική κατάσταση. Επιστρέφει σε json την     200 (OK), 400 (Bad Request)
-                                                τρέχουσα μορφή του board.
-
-
-blockus.php/board/piece/{piece_id}      PUT     Τοποθετη το blockus πιόνι με id = piece_id (τιμη 1 -21 για τα 21       200 (OK), 400 (Bad Request)
-/{cordinet_x}                                   πιονια blockus) στην θεση με συντεταγμενη x ισο με cordinet_x (x,y)
-                                                και y = cordinet_y με δεξιες περιστροφες = rotation.
-                                                Ορίσματα: cordinet_y, rotation. 
-                                                Θα επιστρέψει την νέα κατάσταση των κελιών όλου του πινακα.
-
-
-blockus.php/players/{p}                 GET     Επιστρέφει σε json τo όνομα και το χρώμα του παίκτη p=B , R , Y ή G    200 (OK), 400 (Bad Request)
-
+URI :
+blockus.php/players/{p} 
+Method : 
+PUT    
+Action :                                                                                             
+Ορίζει το όνομα του παίκτη p σε name. Ορίσματα: name.
+Return Status :
+200 (OK), 400 (Bad Request)                                   
                                                 
-
-blockus.php/players/{p}                 PUT     Ορίζει το όνομα του παίκτη p σε name. Ορίσματα: name.                  200 (OK), 400 (Bad Request)
-
-
-blockus.php/players/                    GET     Επιστρέφει σε json τα ονόματα και χράματα όλων των παικτών.            200 (OK), 400 (Bad Request)
-
-
-blockus.php/status/                     GET     Επιστρέφει σε json το status του παιχνιδιού                            200 (OK), 400 (Bad Request)
-
-
-
-
-
+URI :
+blockus.php/players/
+Method : 
+GET    
+Action :                                                                                             
+Επιστρέφει σε json τα ονόματα και χράματα όλων των παικτών.
+Return Status :
+200 (OK), 400 (Bad Request)                                                 
+                                                
+URI :
+blockus.php/status/
+Method : 
+GET    
+Action :                                                                                             
+Επιστρέφει σε json το status του παιχνιδιού  
+Return Status :
+200 (OK), 400 (Bad Request) 
