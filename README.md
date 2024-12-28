@@ -26,7 +26,7 @@ https://users.iee.ihu.gr/~iee2020246/ADISE24_Blokus2/www/
 --- API του project 
 
 
-URI                                     Method  Action                                                                 Return Status
+URI      &nbsp;                               Method &nbsp;  Action                   &nbsp;                                              Return Status
 
 blockus.php/board/                      GET     Επιστρέφει σε json την τρέχουσα μορφή του board.                       200 (OK), 400 (Bad Request)
 
