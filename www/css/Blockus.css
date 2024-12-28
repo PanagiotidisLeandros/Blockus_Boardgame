@@ -1,0 +1,10 @@
+#blockus_table td{width: 3em; height:3em;border:1px solid black;text-align:center;}
+#blockus_table {border-collapse: collapse;}
+
+TD.R_square {background-color:#ff0000;}
+TD.B_square {background-color:#3c00ff;} 
+TD.G_square {background-color:#00ff00;}
+TD.Y_square {background-color:#fffc00;}
+TD.X_square {background-color:#777777;}
+
+IMG.piece {width: 2.1em; height:2.8em;}
