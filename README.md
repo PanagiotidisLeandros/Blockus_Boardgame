@@ -1,9 +1,4 @@
 # ADISE24_Blokus2
-## Links
-
-https://drive.google.com/drive/u/0/folders/1AAQ-vGNLVEusxUZmTIbUXNXMpEbqnLt1?q=sharedwith:public%20parent:1AAQ-vGNLVEusxUZmTIbUXNXMpEbqnLt1
-
-https://users.iee.ihu.gr/~iee2020246/ADISE24_Blokus2/www/ (inactive)
 
 ## Περιγραφή του project
 
@@ -37,3 +32,10 @@ https://users.iee.ihu.gr/~iee2020246/ADISE24_Blokus2/www/ (inactive)
 | blockus.php/players/{p} | PUT | Ορίζει το όνομα του παίκτη p σε name. Ορίσματα: name. | 200 (OK), 400 (Bad Request) |
 | blockus.php/players/ | GET | Επιστρέφει σε json τα ονόματα και χράματα όλων των παικτών. | 200 (OK), 400 (Bad Request) |
 | blockus.php/status/  | GET |  Επιστρέφει σε json το status του παιχνιδιού. | 200 (OK), 400 (Bad Request) |
+
+## Links
+
+https://drive.google.com/drive/u/0/folders/1AAQ-vGNLVEusxUZmTIbUXNXMpEbqnLt1?q=sharedwith:public%20parent:1AAQ-vGNLVEusxUZmTIbUXNXMpEbqnLt1
+
+https://users.iee.ihu.gr/~iee2020246/ADISE24_Blokus2/www/ (inactive)
+
