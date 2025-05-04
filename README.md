@@ -37,5 +37,5 @@
 
 https://drive.google.com/drive/u/0/folders/1AAQ-vGNLVEusxUZmTIbUXNXMpEbqnLt1?q=sharedwith:public%20parent:1AAQ-vGNLVEusxUZmTIbUXNXMpEbqnLt1
 
-https://users.iee.ihu.gr/~iee2020246/ADISE24_Blokus2/www/ (inactive)
+<!-- https://users.iee.ihu.gr/~iee2020246/ADISE24_Blokus2/www/ (inactive) -->
 
